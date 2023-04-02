@@ -8,6 +8,6 @@ browser.driver.set_window_size(1000, 600)
 scraperDecolar = Decolar(url)
 
 if (scraperDecolar.rasparDados(browser)): 
-    print("Tudo certo")
+    print("Teste Ok")
 else:
-    print("Deu Merda")
+    print("Teste não OK")

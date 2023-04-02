@@ -1,5 +1,4 @@
 from splinter import Browser
-
 import json
 
 class PassagemScraper():
