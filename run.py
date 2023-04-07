@@ -1,11 +1,23 @@
 from splinter import Browser
-from passagensScraper import Decolar
+from sites import Decolar
+from classes import filtrosPesquisa
+import json 
 
-url = 'https://www.decolar.com/shop/flights/results/oneway/FOR/GRU/2023-04-08/1/0/0/NA/NA/NA/NA?from=SB&di=1-0'
 browser = Browser('edge', headless=True,incognito=True)
 browser.driver.set_window_size(1000, 600)
 
-scraperDecolar = Decolar(url)
+pesquisa = filtrosPesquisa()
+pesquisa.setTipoViagem('oneway')
+pesquisa.setDataIda('29/04/2023')
+pesquisa.setDataVolta('30/05/2023')
+
+with open('./data/aeroportos.json', 'r') as data:
+    aeroportos = json.load(data)
+    pesquisa.origem = aeroportos['fortaleza'][0]['iata']
+    pesquisa.destino = aeroportos['orlando'][0]['iata']
+
+scraperDecolar = Decolar()
+scraperDecolar.makeUrl(pesquisa)
 
 if (scraperDecolar.rasparDados(browser)): 
     print("Teste Ok")

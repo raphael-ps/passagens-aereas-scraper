@@ -1,0 +1,122 @@
+[
+    {
+        "companhia": "Gol",
+        "vooIda": {
+            "horaVoo": "03:10",
+            "paradas": "1",
+            "duracao": "12h 47m",
+            "previsaoChegada": "14:57"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.032"
+    },
+    {
+        "companhia": "Gol",
+        "vooIda": {
+            "horaVoo": "03:10",
+            "paradas": "1",
+            "duracao": "12h 47m",
+            "previsaoChegada": "14:57"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.166"
+    },
+    {
+        "companhia": "Copa Airlines",
+        "vooIda": {
+            "horaVoo": "18:05",
+            "paradas": "2",
+            "duracao": "21h 11m",
+            "previsaoChegada": "14:16"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "2.752"
+    },
+    {
+        "companhia": "Copa Airlines",
+        "vooIda": {
+            "horaVoo": "18:05",
+            "paradas": "2",
+            "duracao": "19h 27m",
+            "previsaoChegada": "12:32"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.020"
+    },
+    {
+        "companhia": "Gol",
+        "vooIda": {
+            "horaVoo": "03:10",
+            "paradas": "1",
+            "duracao": "12h 47m",
+            "previsaoChegada": "14:57"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "4.251"
+    },
+    {
+        "companhia": "Gol",
+        "vooIda": {
+            "horaVoo": "04:40",
+            "paradas": "2",
+            "duracao": "17h 47m",
+            "previsaoChegada": "21:27"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.967"
+    },
+    {
+        "companhia": "Gol",
+        "vooIda": {
+            "horaVoo": "04:40",
+            "paradas": "2",
+            "duracao": "17h 47m",
+            "previsaoChegada": "21:27"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.833"
+    },
+    {
+        "companhia": "Copa Airlines",
+        "vooIda": {
+            "horaVoo": "18:05",
+            "paradas": "2",
+            "duracao": "19h 27m",
+            "previsaoChegada": "12:32"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.702"
+    },
+    {
+        "companhia": "Copa Airlines",
+        "vooIda": {
+            "horaVoo": "18:05",
+            "paradas": "2",
+            "duracao": "21h 11m",
+            "previsaoChegada": "14:16"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "3.562"
+    },
+    {
+        "companhia": null,
+        "vooIda": {
+            "horaVoo": "18:05",
+            "paradas": "2",
+            "duracao": "19h 27m",
+            "previsaoChegada": "12:32"
+        },
+        "vooVolta": null,
+        "moeda": "R$",
+        "precoFinal": "4.277"
+    }
+]
