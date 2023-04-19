@@ -79,8 +79,9 @@ class Decolar(PassagemScraper):
                                     "precoFinal": precoFinal})
 
         json_object = json.dumps(resultados, indent = 4) 
-        with open("./data/resultados.json", "w") as outfile: 
-            outfile.write(json_object)  
-            outfile.close()
-
-        return True
+        json_object = json.dumps(resultados, indent = 4) 
+        # with open("./data/resultados.json", "w") as outfile: 
+        #     outfile.write(json_object)  
+        #     outfile.close()
+       
+        return json_object
