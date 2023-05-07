@@ -14,7 +14,7 @@ def scraping():
     ida = request.args.get('ida')
     volta = request.args.get('volta')
 
-    browser = Browser('edge', headless=True,incognito=True)
+    browser = Browser('edge', headless=True, incognito=True)
     browser.driver.set_window_size(1000, 600)
 
     pesquisa = filtrosPesquisa()

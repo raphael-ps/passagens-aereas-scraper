@@ -1,122 +1,412 @@
-[
-    {
-        "companhia": "Gol",
-        "vooIda": {
-            "horaVoo": "03:10",
-            "paradas": "1",
-            "duracao": "12h 47m",
-            "previsaoChegada": "14:57"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.032"
+{
+    "1.086": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "06:55",
+                "paradas": "1",
+                "duracao": "6h",
+                "previsaoChegada": "12:55"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "15:30",
+                "paradas": "1",
+                "duracao": "7h 5m",
+                "previsaoChegada": "22:35"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "21:15",
+                "paradas": "2",
+                "duracao": "16h",
+                "previsaoChegada": "13:15"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "02:35",
+                "paradas": "2",
+                "duracao": "7h 45m",
+                "previsaoChegada": "10:20"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:20",
+                "paradas": "2",
+                "duracao": "7h 35m",
+                "previsaoChegada": "21:55"
+            }
+        ]
     },
-    {
-        "companhia": "Gol",
-        "vooIda": {
-            "horaVoo": "03:10",
-            "paradas": "1",
-            "duracao": "12h 47m",
-            "previsaoChegada": "14:57"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.166"
+    "1.556": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "05:05",
+                "paradas": "Direto",
+                "duracao": "3h 15m",
+                "previsaoChegada": "08:20"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "08:35",
+                "paradas": "Direto",
+                "duracao": "3h 15m",
+                "previsaoChegada": "11:50"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "18:00",
+                "paradas": "Direto",
+                "duracao": "3h 25m",
+                "previsaoChegada": "21:25"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "03:40",
+                "paradas": "Direto",
+                "duracao": "3h 35m",
+                "previsaoChegada": "07:15"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:30",
+                "paradas": "Direto",
+                "duracao": "3h 35m",
+                "previsaoChegada": "18:05"
+            }
+        ]
     },
-    {
-        "companhia": "Copa Airlines",
-        "vooIda": {
-            "horaVoo": "18:05",
-            "paradas": "2",
-            "duracao": "21h 11m",
-            "previsaoChegada": "14:16"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "2.752"
+    "1.137": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "06:55",
+                "paradas": "1",
+                "duracao": "6h",
+                "previsaoChegada": "12:55"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "15:30",
+                "paradas": "1",
+                "duracao": "7h 5m",
+                "previsaoChegada": "22:35"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "21:15",
+                "paradas": "2",
+                "duracao": "16h",
+                "previsaoChegada": "13:15"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "Azul",
+                "horaVoo": "02:35",
+                "paradas": "1",
+                "duracao": "7h 5m",
+                "previsaoChegada": "09:40"
+            },
+            {
+                "companhia": "Azul",
+                "horaVoo": "05:45",
+                "paradas": "1",
+                "duracao": "15h",
+                "previsaoChegada": "20:45"
+            }
+        ]
     },
-    {
-        "companhia": "Copa Airlines",
-        "vooIda": {
-            "horaVoo": "18:05",
-            "paradas": "2",
-            "duracao": "19h 27m",
-            "previsaoChegada": "12:32"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.020"
+    "1.336": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "05:05",
+                "paradas": "Direto",
+                "duracao": "3h 15m",
+                "previsaoChegada": "08:20"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "07:35",
+                "paradas": "Direto",
+                "duracao": "3h 20m",
+                "previsaoChegada": "10:55"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "08:35",
+                "paradas": "Direto",
+                "duracao": "3h 15m",
+                "previsaoChegada": "11:50"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "12:25",
+                "paradas": "Direto",
+                "duracao": "3h 20m",
+                "previsaoChegada": "15:45"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "03:40",
+                "paradas": "Direto",
+                "duracao": "3h 35m",
+                "previsaoChegada": "07:15"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:30",
+                "paradas": "Direto",
+                "duracao": "3h 35m",
+                "previsaoChegada": "18:05"
+            }
+        ]
     },
-    {
-        "companhia": "Gol",
-        "vooIda": {
-            "horaVoo": "03:10",
-            "paradas": "1",
-            "duracao": "12h 47m",
-            "previsaoChegada": "14:57"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "4.251"
+    "1.209": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "06:55",
+                "paradas": "1",
+                "duracao": "6h",
+                "previsaoChegada": "12:55"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "08:55",
+                "paradas": "1",
+                "duracao": "4h 35m",
+                "previsaoChegada": "13:30"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "09:55",
+                "paradas": "1",
+                "duracao": "5h 45m",
+                "previsaoChegada": "15:40"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "15:30",
+                "paradas": "1",
+                "duracao": "7h 5m",
+                "previsaoChegada": "22:35"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "04:40",
+                "paradas": "1",
+                "duracao": "10h 5m",
+                "previsaoChegada": "14:45"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:10",
+                "paradas": "1",
+                "duracao": "7h 15m",
+                "previsaoChegada": "21:25"
+            }
+        ]
     },
-    {
-        "companhia": "Gol",
-        "vooIda": {
-            "horaVoo": "04:40",
-            "paradas": "2",
-            "duracao": "17h 47m",
-            "previsaoChegada": "21:27"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.967"
+    "1.381": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "05:05",
+                "paradas": "Direto",
+                "duracao": "3h 15m",
+                "previsaoChegada": "08:20"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "07:35",
+                "paradas": "Direto",
+                "duracao": "3h 20m",
+                "previsaoChegada": "10:55"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "08:35",
+                "paradas": "Direto",
+                "duracao": "3h 15m",
+                "previsaoChegada": "11:50"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "12:25",
+                "paradas": "Direto",
+                "duracao": "3h 20m",
+                "previsaoChegada": "15:45"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "18:10",
+                "paradas": "Direto",
+                "duracao": "3h 30m",
+                "previsaoChegada": "21:40"
+            }
+        ]
     },
-    {
-        "companhia": "Gol",
-        "vooIda": {
-            "horaVoo": "04:40",
-            "paradas": "2",
-            "duracao": "17h 47m",
-            "previsaoChegada": "21:27"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.833"
+    "1.379": {
+        "VoosIda": [
+            {
+                "companhia": "Gol",
+                "horaVoo": "08:35",
+                "paradas": "Direto",
+                "duracao": "3h 20m",
+                "previsaoChegada": "11:55"
+            },
+            {
+                "companhia": "Gol",
+                "horaVoo": "13:40",
+                "paradas": "Direto",
+                "duracao": "3h 25m",
+                "previsaoChegada": "17:05"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "Gol",
+                "horaVoo": "10:35",
+                "paradas": "Direto",
+                "duracao": "3h 40m",
+                "previsaoChegada": "14:15"
+            },
+            {
+                "companhia": "Gol",
+                "horaVoo": "18:35",
+                "paradas": "Direto",
+                "duracao": "3h 35m",
+                "previsaoChegada": "22:10"
+            }
+        ]
     },
-    {
-        "companhia": "Copa Airlines",
-        "vooIda": {
-            "horaVoo": "18:05",
-            "paradas": "2",
-            "duracao": "19h 27m",
-            "previsaoChegada": "12:32"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.702"
+    "1.275": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "06:55",
+                "paradas": "1",
+                "duracao": "6h",
+                "previsaoChegada": "12:55"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "08:55",
+                "paradas": "1",
+                "duracao": "4h 35m",
+                "previsaoChegada": "13:30"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "09:55",
+                "paradas": "1",
+                "duracao": "5h 45m",
+                "previsaoChegada": "15:40"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "15:30",
+                "paradas": "1",
+                "duracao": "7h 5m",
+                "previsaoChegada": "22:35"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "02:35",
+                "paradas": "2",
+                "duracao": "7h 45m",
+                "previsaoChegada": "10:20"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "04:40",
+                "paradas": "2",
+                "duracao": "7h 25m",
+                "previsaoChegada": "12:05"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:10",
+                "paradas": "2",
+                "duracao": "6h 30m",
+                "previsaoChegada": "20:40"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:15",
+                "paradas": "2",
+                "duracao": "6h 45m",
+                "previsaoChegada": "21:00"
+            }
+        ]
     },
-    {
-        "companhia": "Copa Airlines",
-        "vooIda": {
-            "horaVoo": "18:05",
-            "paradas": "2",
-            "duracao": "21h 11m",
-            "previsaoChegada": "14:16"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "3.562"
+    "1.387": {
+        "VoosIda": [
+            {
+                "companhia": "Gol",
+                "horaVoo": "06:30",
+                "paradas": "Direto",
+                "duracao": "3h 25m",
+                "previsaoChegada": "09:55"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "Gol",
+                "horaVoo": "10:35",
+                "paradas": "Direto",
+                "duracao": "3h 40m",
+                "previsaoChegada": "14:15"
+            },
+            {
+                "companhia": "Gol",
+                "horaVoo": "18:35",
+                "paradas": "Direto",
+                "duracao": "3h 35m",
+                "previsaoChegada": "22:10"
+            }
+        ]
     },
-    {
-        "companhia": null,
-        "vooIda": {
-            "horaVoo": "18:05",
-            "paradas": "2",
-            "duracao": "19h 27m",
-            "previsaoChegada": "12:32"
-        },
-        "vooVolta": null,
-        "moeda": "R$",
-        "precoFinal": "4.277"
+    "1.196": {
+        "VoosIda": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "06:50",
+                "paradas": "1",
+                "duracao": "6h 40m",
+                "previsaoChegada": "13:30"
+            }
+        ],
+        "VoosVolta": [
+            {
+                "companhia": "LATAM",
+                "horaVoo": "02:35",
+                "paradas": "2",
+                "duracao": "7h 45m",
+                "previsaoChegada": "10:20"
+            },
+            {
+                "companhia": "LATAM",
+                "horaVoo": "14:20",
+                "paradas": "2",
+                "duracao": "7h 35m",
+                "previsaoChegada": "21:55"
+            }
+        ]
     }
-]
+}
