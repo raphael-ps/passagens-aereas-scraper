@@ -46,6 +46,8 @@ class Decolar(PassagemScraper):
             resultados.update({precoFinal: {'VoosIda': voosIda, 'VoosVolta': voosVolta}})
 
         json_object = json.dumps(resultados, indent = 4) 
+        
+        return json_object
 
     def getViagensInfo(self, routeChoice): 
         lines = routeChoice.find_by_tag('li')
