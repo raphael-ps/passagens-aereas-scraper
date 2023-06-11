@@ -22,13 +22,6 @@
             },
             {
                 "companhia": "Azul",
-                "horaVoo": "13:10",
-                "paradas": "1",
-                "duracao": "6h 55m",
-                "previsaoChegada": "20:05"
-            },
-            {
-                "companhia": "Azul",
                 "horaVoo": "20:00",
                 "paradas": "1",
                 "duracao": "8h 55m",
@@ -103,13 +96,6 @@
             },
             {
                 "companhia": "Azul",
-                "horaVoo": "13:10",
-                "paradas": "1",
-                "duracao": "6h 55m",
-                "previsaoChegada": "20:05"
-            },
-            {
-                "companhia": "Azul",
                 "horaVoo": "20:00",
                 "paradas": "1",
                 "duracao": "8h 55m",
@@ -130,6 +116,18 @@
         ],
         "VoosVolta": null
     },
+    "875": {
+        "VoosIda": [
+            {
+                "companhia": "Azul",
+                "horaVoo": "13:10",
+                "paradas": "1",
+                "duracao": "6h 55m",
+                "previsaoChegada": "20:05"
+            }
+        ],
+        "VoosVolta": null
+    },
     "1.033": {
         "VoosIda": [
             {
@@ -138,18 +136,6 @@
                 "paradas": "Direto",
                 "duracao": "3h 15m",
                 "previsaoChegada": "05:45"
-            }
-        ],
-        "VoosVolta": null
-    },
-    "863": {
-        "VoosIda": [
-            {
-                "companhia": "LATAM",
-                "horaVoo": "09:05",
-                "paradas": "1",
-                "duracao": "7h 50m",
-                "previsaoChegada": "16:55"
             }
         ],
         "VoosVolta": null

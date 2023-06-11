@@ -1,0 +1,14 @@
+{
+  "name": "passagens-aereas-scraper",
+  "version": "1.0.0",
+  "description": "```base\r flask --app run run\r ```\r ### Exemplo de get, utilizando postman ou similares\r ```bash\r http://127.0.0.1:5000/scraping?origem=FOR&destino=SFB&tipo=oneway&ida=29/04/2023&volta=30/05/2023\r ```",
+  "main": "mailingTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.3"
+  }
+}
