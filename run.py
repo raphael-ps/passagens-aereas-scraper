@@ -5,7 +5,7 @@ from classes import filtrosPesquisa
 
 app = Flask(__name__)
 
-@app.route('/scraping', methods = ['POST'])
+@app.route('/passagens', methods = ['POST'])
 def scraping():
     if request.method == 'POST':
         origem = request.form.get('origem')
