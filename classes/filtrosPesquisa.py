@@ -16,22 +16,17 @@ class filtrosPesquisa():
         return True
     
     def setDataIda(self, data: str):
-        try:
-            data = data.replace('/', '-')
-            self.__dataIda = datetime.strptime(data, '%d-%m-%Y')
-        except:
+        if not data:
             print('Data inválida')
             return False
+        self.__dataIda = data
         return True
     
     def setDataVolta(self, data: str):
-
-        try:
-            data = data.replace('/', '-')
-            self.__dataVolta = datetime.strptime(data, '%d-%m-%Y')
-        except:
+        if not data:
             print('Data inválida')
             return False
+        self.__dataVolta = data
         return True
     
     def getDataIda(self):

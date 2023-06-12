@@ -1,7 +1,6 @@
 from splinter import Browser
 from sites import PassagemScraper
 from classes import filtrosPesquisa
-import json
 
 class Decolar(PassagemScraper):
     def __init__(self):
@@ -9,10 +8,10 @@ class Decolar(PassagemScraper):
 
     def makeUrl(self, filtros : filtrosPesquisa):
         url = self.getUrl()
-        ida = filtros.getDataIda().strftime("%Y-%m-%d")
+        ida = filtros.getDataIda()
 
         if (filtros.getTipoViagem() == 'roundtrip'):
-            volta = filtros.getDataVolta().strftime("%Y-%m-%d")
+            volta = filtros.getDataVolta()
             url += f'/{filtros.getTipoViagem()}/{filtros.origem}/{filtros.destino}/{ida}/{volta}/1/0/0/NA/NA/NA/NA/NA?from=SB&di=1-0'
         elif (filtros.getTipoViagem() == 'oneway'):
             url += f'/{filtros.getTipoViagem()}/{filtros.origem}/{filtros.destino}/{ida}/1/0/0/NA/NA/NA/NA?from=SB&di=1-0'
@@ -28,8 +27,8 @@ class Decolar(PassagemScraper):
         cluster = browser.find_by_tag('cluster')
         precos = browser.find_by_xpath('//fare/span/span')
 
-        resultados = {}
-
+        resultados = []
+        passagens = []
         for cont in range(0, len(cluster)):
     
             precos[cont].value.split('\n')[-2].split('$')[1]
@@ -38,18 +37,16 @@ class Decolar(PassagemScraper):
             routeChoice = cluster[cont].find_by_tag('route-choice')
 
             voosIda = voosVolta = None
-            voosIda = self.getViagensInfo(routeChoice[0])
+            voosIda = self.getViagensInfo(routeChoice[0],precoFinal)
 
             if (len(routeChoice) > 1):
-                voosVolta = self.getViagensInfo(routeChoice[1])
+                voosVolta = self.getViagensInfo(routeChoice[1],precoFinal)
 
-            resultados.update({precoFinal: {'VoosIda': voosIda, 'VoosVolta': voosVolta}})
+            resultados.append({'VoosIda': voosIda, 'VoosVolta': voosVolta})
+        print(resultados)
+        return resultados
 
-        json_object = json.dumps(resultados, indent = 4) 
-        
-        return json_object
-
-    def getViagensInfo(self, routeChoice): 
+    def getViagensInfo(self, routeChoice, preco): 
         lines = routeChoice.find_by_tag('li')
         voos = []
 
@@ -61,10 +58,5 @@ class Decolar(PassagemScraper):
                duracao = line.find_by_css('.time').text
                previsaoChegada = line.find_by_css('.arrive').text.split('\n')[0]
 
-               voos.append({"companhia":companhia, 
-                              "horaVoo": horaVoo, 
-                              'paradas': paradas[0], 
-                              "duracao":duracao, 
-                              "previsaoChegada": previsaoChegada
-                              })
+               voos.append({"companhia":companhia, "horaVoo": horaVoo, "paradas": paradas[0], "duracao":duracao, "previsaoChegada": previsaoChegada, "preco":preco})
         return voos
